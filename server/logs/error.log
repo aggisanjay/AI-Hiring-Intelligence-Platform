@@ -1008,3 +1008,5 @@
 Use mongoose.model(name, schema)
 2026-02-23 18:31:38 [ERROR]: ❌ Resume job failed: Schema hasn't been registered for model "User".
 Use mongoose.model(name, schema)
+2026-02-23 19:30:34 [ERROR]: ❌ Resume job failed: Schema hasn't been registered for model "User".
+Use mongoose.model(name, schema)

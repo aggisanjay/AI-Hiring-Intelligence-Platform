@@ -8002,3 +8002,33 @@ Use mongoose.model(name, schema)
 2026-02-23 19:28:19 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-02.h5sl1qs.mongodb.net
 2026-02-23 19:28:19 [INFO]: 🤖 AI Worker started
 2026-02-23 19:28:20 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-23 19:28:22 [INFO]: ✅ BullMQ queues initialized
+2026-02-23 19:28:23 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-23 19:28:23 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-23 19:28:23 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-23 19:28:23 [INFO]: ✅ Redis (Upstash) connected
+2026-02-23 19:28:23 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-00.h5sl1qs.mongodb.net
+2026-02-23 19:28:25 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-23 19:29:27 [HTTP]: [0mPOST /api/auth/login [32m200[0m 519.746 ms - 889[0m
+2026-02-23 19:29:28 [HTTP]: [0mGET /api/interviews/my [32m200[0m 201.612 ms - 34699[0m
+2026-02-23 19:29:28 [HTTP]: [0mGET /api/interviews/my [36m304[0m 117.910 ms - -[0m
+2026-02-23 19:29:28 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 459.060 ms - 132[0m
+2026-02-23 19:29:28 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 109.379 ms - -[0m
+2026-02-23 19:29:35 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 114.936 ms - 4340[0m
+2026-02-23 19:29:35 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 85.806 ms - -[0m
+2026-02-23 19:29:48 [HTTP]: [0mPOST /api/auth/login [33m401[0m 448.843 ms - 56[0m
+2026-02-23 19:29:58 [HTTP]: [0mPOST /api/auth/login [32m200[0m 413.143 ms - 605[0m
+2026-02-23 19:29:58 [HTTP]: [0mGET /api/interviews/my [32m200[0m 57.238 ms - 32[0m
+2026-02-23 19:29:58 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 110.960 ms - 129[0m
+2026-02-23 19:29:58 [HTTP]: [0mGET /api/interviews/my [36m304[0m 58.621 ms - -[0m
+2026-02-23 19:29:58 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 122.548 ms - -[0m
+2026-02-23 19:30:01 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 78.231 ms - 1861[0m
+2026-02-23 19:30:01 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 90.565 ms - -[0m
+2026-02-23 19:30:03 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 99.126 ms - 7501[0m
+2026-02-23 19:30:03 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 84.948 ms - -[0m
+2026-02-23 19:30:17 [INFO]: 🔍 Processing resume: 699c5d710f20ff3d116d3c11 from https://res.cloudinary.com/dlozxvdub/raw/upload/v1771855216/hireiq/resumes/resume-1771855215256-713858115
+2026-02-23 19:30:18 [INFO]: 📄 Extracted 1854 chars from resume
+2026-02-23 19:30:21 [INFO]: 📧 Email sent [applicationReceived] → aggisanjay1234@gmail.com
+2026-02-23 19:30:21 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 6007.553 ms - 717[0m
+2026-02-23 19:30:34 [ERROR]: ❌ Resume job failed: Schema hasn't been registered for model "User".
+Use mongoose.model(name, schema)
