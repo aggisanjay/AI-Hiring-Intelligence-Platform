@@ -7984,3 +7984,9 @@ Use mongoose.model(name, schema)
 2026-02-23 18:56:36 [INFO]: ✅ Redis (Upstash) connected
 2026-02-23 18:56:39 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-02.h5sl1qs.mongodb.net
 2026-02-23 18:56:40 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-23 18:56:50 [INFO]: ✅ BullMQ queues initialized
+2026-02-23 18:56:52 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-23 18:56:52 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-23 18:56:52 [INFO]: ✅ Redis (Upstash) connected
+2026-02-23 18:56:52 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-02.h5sl1qs.mongodb.net
+2026-02-23 18:56:53 [INFO]: ✅ SMTP connected — emails will be sent
