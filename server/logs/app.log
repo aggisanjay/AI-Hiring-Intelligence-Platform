@@ -8574,3 +8574,8 @@ Use mongoose.model(name, schema)
 2026-02-24 13:00:55 [INFO]: 📡 API: http://localhost:5000/api
 2026-02-24 13:00:56 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-00.h5sl1qs.mongodb.net
 2026-02-24 13:00:57 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 13:01:36 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 13:01:36 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 13:01:36 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 13:01:37 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net
+2026-02-24 13:01:38 [INFO]: ✅ SMTP connected — emails will be sent
