@@ -1,7 +1,7 @@
 
+
 import Interview from "./interviews.model.js";
 import { generateInterviewQuestion, evaluateInterview } from "../../services/ai.service.js";
-import { interviewQueue, safeQueueAdd } from "../../config/redis.js";
 
 // ─── Start Interview ───────────────────────────────────────────────────────────
 export const startInterview = async (req, res) => {
@@ -13,7 +13,7 @@ export const startInterview = async (req, res) => {
 
     const interview = await Interview.create({
       candidateId:   req.user._id,
-      jobId:         jobId || null,
+      jobId:         jobId         || null,
       applicationId: applicationId || null,
       jobRole,
       messages:   [{ role: "assistant", content: firstQuestion }],
@@ -22,7 +22,7 @@ export const startInterview = async (req, res) => {
 
     res.status(201).json({ success: true, interviewId: interview._id, question: firstQuestion });
   } catch (err) {
-    console.error("❌ [startInterview]", err.message, err.stack?.split("\n")[1]);
+    console.error("❌ [startInterview]", err.message);
     res.status(500).json({ success: false, message: err.message });
   }
 };
@@ -31,32 +31,12 @@ export const startInterview = async (req, res) => {
 export const sendMessage = async (req, res) => {
   try {
     const { answer } = req.body;
-    console.log(`📨 [sendMessage] interviewId=${req.params.id} answerLength=${answer?.length}`);
+    if (!answer?.trim()) return res.status(400).json({ success: false, message: "Answer cannot be empty." });
 
-    if (!answer?.trim()) {
-      return res.status(400).json({ success: false, message: "Answer cannot be empty." });
-    }
+    const interview = await Interview.findOne({ _id: req.params.id, candidateId: req.user._id });
+    if (!interview) return res.status(404).json({ success: false, message: "Interview session not found." });
+    if (interview.status !== "active") return res.status(400).json({ success: false, message: `Interview is already ${interview.status}.` });
 
-    const interview = await Interview.findOne({
-      _id:         req.params.id,
-      candidateId: req.user._id,
-    });
-
-    if (!interview) {
-      console.error(`❌ [sendMessage] Interview ${req.params.id} not found for user ${req.user._id}`);
-      return res.status(404).json({ success: false, message: "Interview session not found." });
-    }
-
-    console.log(`📋 [sendMessage] status=${interview.status} turns=${interview.totalTurns}`);
-
-    if (interview.status !== "active") {
-      return res.status(400).json({
-        success: false,
-        message: `Interview is already "${interview.status}". Cannot send more answers.`,
-      });
-    }
-
-    // Save candidate answer
     interview.messages.push({ role: "user", content: answer.trim() });
     interview.totalTurns += 1;
 
@@ -65,65 +45,102 @@ export const sendMessage = async (req, res) => {
 
     if (!isComplete) {
       try {
-        console.log(`🤖 [sendMessage] Calling Gemini for next question (turn ${interview.totalTurns})...`);
         nextQuestion = await generateInterviewQuestion({
           jobRole:  interview.jobRole,
           messages: interview.messages,
           isFirst:  false,
         });
-        console.log(`✅ [sendMessage] Got question: "${nextQuestion.substring(0, 60)}..."`);
         interview.messages.push({ role: "assistant", content: nextQuestion });
       } catch (aiErr) {
-        console.error(`❌ [sendMessage] Gemini failed:`, aiErr.message);
+        console.error("❌ Gemini error in sendMessage:", aiErr.message);
         await interview.save();
-        return res.status(502).json({
-          success: false,
-          message: `AI error: ${aiErr.message}`,
-        });
+        return res.status(502).json({ success: false, message: `AI error: ${aiErr.message}` });
       }
     }
 
     await interview.save();
     res.json({ success: true, nextQuestion, isComplete, turnsLeft: Math.max(0, 8 - interview.totalTurns) });
-
   } catch (err) {
-    console.error("❌ [sendMessage] Unexpected error:", err.message, err.stack?.split("\n")[1]);
-    res.status(500).json({ success: false, message: `Server error: ${err.message}` });
+    console.error("❌ [sendMessage]", err.message);
+    res.status(500).json({ success: false, message: err.message });
   }
 };
 
-// ─── Complete & Evaluate ───────────────────────────────────────────────────────
+// ─── Run evaluation (shared logic used by complete + retry) ───────────────────
+const runEvaluation = async (interview) => {
+  const evaluation = await evaluateInterview({
+    jobRole:  interview.jobRole,
+    messages: interview.messages,
+  });
+  interview.evaluation = { ...evaluation, evaluatedAt: new Date() };
+  interview.status     = "evaluated";
+  await interview.save();
+  return evaluation;
+};
+
+// ─── Complete Interview & Evaluate ─────────────────────────────────────────────
 export const completeInterview = async (req, res) => {
   try {
     const interview = await Interview.findOne({ _id: req.params.id, candidateId: req.user._id });
     if (!interview) return res.status(404).json({ success: false, message: "Interview not found." });
 
+    // Mark completed
     interview.status      = "completed";
     interview.completedAt = new Date();
     await interview.save();
 
-    const queued = await safeQueueAdd(interviewQueue, "evaluate-interview", {
-      interviewId: interview._id.toString(),
-      jobRole:     interview.jobRole,
-      messages:    interview.messages,
-    });
-
-    if (!queued) {
-      // No Redis — evaluate right now synchronously
-      try {
-        const evaluation = await evaluateInterview({ jobRole: interview.jobRole, messages: interview.messages });
-        interview.evaluation = evaluation;
-        interview.status     = "evaluated";
-        await interview.save();
-        return res.json({ success: true, message: "Evaluated.", interviewId: interview._id, evaluated: true });
-      } catch (evalErr) {
-        console.error("❌ [completeInterview] Sync eval failed:", evalErr.message);
-      }
+    // Evaluate synchronously — Gemini call happens here
+    try {
+      const evaluation = await runEvaluation(interview);
+      console.log(`✅ Interview evaluated. Score: ${evaluation.overallScore}`);
+      return res.json({
+        success:    true,
+        evaluated:  true,
+        evaluation,
+        interviewId: interview._id,
+      });
+    } catch (evalErr) {
+      console.error("❌ Evaluation failed:", evalErr.message);
+      // Leave status as "completed" so frontend can retry
+      return res.json({
+        success:     true,
+        evaluated:   false,
+        evalError:   evalErr.message,
+        interviewId: interview._id,
+        message:     "Interview saved. Evaluation failed — use the retry button.",
+      });
     }
-
-    res.json({ success: true, message: "Interview submitted. Evaluation in progress.", interviewId: interview._id });
   } catch (err) {
     console.error("❌ [completeInterview]", err.message);
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// ─── Retry Evaluation (called from frontend retry button) ─────────────────────
+export const retryEvaluation = async (req, res) => {
+  try {
+    const interview = await Interview.findOne({
+      _id:         req.params.id,
+      candidateId: req.user._id,
+    });
+    if (!interview) return res.status(404).json({ success: false, message: "Interview not found." });
+    if (interview.status === "active") return res.status(400).json({ success: false, message: "Interview not completed yet." });
+
+    // Already evaluated — just return it
+    if (interview.status === "evaluated") {
+      return res.json({ success: true, evaluated: true, evaluation: interview.evaluation });
+    }
+
+    // Try evaluating again
+    try {
+      const evaluation = await runEvaluation(interview);
+      console.log(`✅ Retry evaluation success. Score: ${evaluation.overallScore}`);
+      return res.json({ success: true, evaluated: true, evaluation });
+    } catch (evalErr) {
+      console.error("❌ Retry evaluation failed:", evalErr.message);
+      return res.status(502).json({ success: false, message: `Evaluation failed: ${evalErr.message}` });
+    }
+  } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 };

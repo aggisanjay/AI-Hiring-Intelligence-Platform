@@ -8032,3 +8032,545 @@ Use mongoose.model(name, schema)
 2026-02-23 19:30:21 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 6007.553 ms - 717[0m
 2026-02-23 19:30:34 [ERROR]: ❌ Resume job failed: Schema hasn't been registered for model "User".
 Use mongoose.model(name, schema)
+2026-02-23 19:36:19 [INFO]: 🔍 Processing resume: 699c5edaa7ab55604a60a1a1 from https://res.cloudinary.com/dlozxvdub/raw/upload/v1771855577/hireiq/resumes/resume-1771855577738-505625803
+2026-02-23 19:36:20 [INFO]: 📄 Extracted 1854 chars from resume
+2026-02-23 19:36:43 [ERROR]: ❌ Resume job failed: Schema hasn't been registered for model "User".
+Use mongoose.model(name, schema)
+2026-02-23 20:14:16 [INFO]: ✅ BullMQ queues initialized
+2026-02-23 20:14:18 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-23 20:14:19 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-23 20:14:19 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-23 20:14:26 [INFO]: ✅ Redis (Upstash) connected
+2026-02-23 20:14:26 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net
+2026-02-23 20:14:27 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-23 20:16:26 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-23 20:16:26 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-23 20:16:26 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-23 20:16:30 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net
+2026-02-23 20:16:30 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-23 20:16:52 [HTTP]: [0mGET /api/interviews/my [36m304[0m 644.797 ms - -[0m
+2026-02-23 20:16:52 [HTTP]: [0mGET /api/interviews/my [36m304[0m 144.073 ms - -[0m
+2026-02-23 20:16:52 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 1084.645 ms - 129[0m
+2026-02-23 20:16:52 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 158.039 ms - -[0m
+2026-02-23 20:17:01 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 131.065 ms - 7501[0m
+2026-02-23 20:17:01 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 109.056 ms - -[0m
+2026-02-23 20:17:03 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 129.003 ms - 3650[0m
+2026-02-23 20:17:03 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 93.658 ms - -[0m
+2026-02-23 20:17:05 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 93.227 ms - -[0m
+2026-02-23 20:17:05 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 93.738 ms - -[0m
+2026-02-23 20:17:07 [HTTP]: [0mGET /api/interviews/my [36m304[0m 83.366 ms - -[0m
+2026-02-23 20:17:07 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 139.682 ms - -[0m
+2026-02-23 20:17:07 [HTTP]: [0mGET /api/interviews/my [36m304[0m 57.278 ms - -[0m
+2026-02-23 20:17:07 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 116.959 ms - -[0m
+2026-02-23 20:17:25 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 96.770 ms - -[0m
+2026-02-23 20:17:25 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 78.237 ms - -[0m
+2026-02-23 20:26:32 [INFO]: 🔍 Processing resume: 699c6a9f6822c3dce146ca93 from https://res.cloudinary.com/dlozxvdub/raw/upload/v1771858590/hireiq/resumes/resume-1771858590372-684081189
+2026-02-23 20:26:33 [INFO]: 📄 Extracted 1854 chars from resume
+2026-02-23 20:26:40 [ERROR]: ❌ Resume job failed: Schema hasn't been registered for model "User".
+Use mongoose.model(name, schema)
+2026-02-23 20:32:47 [HTTP]: [0mGET /api/auth/me [32m200[0m 60.879 ms - 393[0m
+2026-02-23 20:32:47 [HTTP]: [0mGET /api/auth/me [36m304[0m 54.013 ms - -[0m
+2026-02-23 20:32:49 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 92.652 ms - 933[0m
+2026-02-23 20:32:49 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 89.189 ms - -[0m
+2026-02-23 20:32:55 [HTTP]: [0mGET /api/auth/me [36m304[0m 90.159 ms - -[0m
+2026-02-23 20:32:55 [HTTP]: [0mGET /api/auth/me [36m304[0m 79.367 ms - -[0m
+2026-02-23 20:32:55 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 79.744 ms - -[0m
+2026-02-23 20:32:55 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 71.206 ms - -[0m
+2026-02-23 20:33:05 [HTTP]: [0mGET /api/auth/me [36m304[0m 52.362 ms - -[0m
+2026-02-23 20:33:05 [HTTP]: [0mGET /api/auth/me [36m304[0m 57.393 ms - -[0m
+2026-02-23 20:33:05 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 74.859 ms - -[0m
+2026-02-23 20:33:06 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 69.338 ms - -[0m
+2026-02-23 20:33:07 [HTTP]: [0mGET /api/auth/me [36m304[0m 57.848 ms - -[0m
+2026-02-23 20:33:07 [HTTP]: [0mGET /api/auth/me [36m304[0m 82.683 ms - -[0m
+2026-02-23 20:33:07 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 104.610 ms - -[0m
+2026-02-23 20:33:07 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 76.984 ms - -[0m
+2026-02-23 20:35:05 [HTTP]: [0mPUT /api/auth/profile [32m200[0m 104.568 ms - 520[0m
+2026-02-23 20:35:15 [HTTP]: [0mGET /api/interviews/my [36m304[0m 70.308 ms - -[0m
+2026-02-23 20:35:15 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 129.636 ms - 129[0m
+2026-02-23 20:35:15 [HTTP]: [0mGET /api/interviews/my [36m304[0m 61.517 ms - -[0m
+2026-02-23 20:35:15 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 142.038 ms - -[0m
+2026-02-23 20:35:23 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 81.650 ms - -[0m
+2026-02-23 20:35:23 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 87.039 ms - -[0m
+2026-02-23 20:35:32 [HTTP]: [0mGET /api/auth/me [32m200[0m 53.195 ms - 491[0m
+2026-02-23 20:35:32 [HTTP]: [0mGET /api/auth/me [36m304[0m 54.111 ms - -[0m
+2026-02-23 20:35:32 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 95.334 ms - -[0m
+2026-02-23 20:35:32 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 73.040 ms - -[0m
+2026-02-23 20:35:34 [HTTP]: [0mGET /api/auth/me [36m304[0m 57.250 ms - -[0m
+2026-02-23 20:35:34 [HTTP]: [0mGET /api/auth/me [36m304[0m 55.684 ms - -[0m
+2026-02-23 20:35:34 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 75.993 ms - -[0m
+2026-02-23 20:35:34 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 76.621 ms - -[0m
+2026-02-23 20:36:40 [HTTP]: [0mGET /api/auth/me [36m304[0m 48.744 ms - -[0m
+2026-02-23 20:36:40 [HTTP]: [0mGET /api/auth/me [36m304[0m 54.812 ms - -[0m
+2026-02-23 20:36:40 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 52.281 ms - 34[0m
+2026-02-23 20:36:40 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 52.459 ms - -[0m
+2026-02-23 20:36:43 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 84.549 ms - 7501[0m
+2026-02-23 20:36:43 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 89.545 ms - -[0m
+2026-02-23 20:36:59 [ERROR]: AI Resume Analysis failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 1.088390018s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]}}
+2026-02-23 20:37:01 [INFO]: 📧 Email sent [applicationReceived] → aggisanjay1234@gmail.com
+2026-02-23 20:37:01 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 5698.717 ms - 718[0m
+2026-02-23 20:37:09 [HTTP]: [0mPOST /api/auth/login [32m200[0m 552.148 ms - 671[0m
+2026-02-23 20:37:09 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 79.890 ms - 3494[0m
+2026-02-23 20:37:09 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 104.703 ms - 187[0m
+2026-02-23 20:37:09 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 72.249 ms - -[0m
+2026-02-23 20:37:09 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 108.517 ms - -[0m
+2026-02-23 20:37:09 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 371.630 ms - 156[0m
+2026-02-23 20:37:10 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 112.577 ms - -[0m
+2026-02-23 20:37:12 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 158.340 ms - -[0m
+2026-02-23 20:37:12 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 55.403 ms - -[0m
+2026-02-23 20:37:15 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 135.323 ms - 5368[0m
+2026-02-23 20:37:15 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 134.365 ms - -[0m
+2026-02-23 20:37:39 [INFO]: 📧 Email sent [statusUpdate] → lisa@email.com
+2026-02-23 20:37:39 [HTTP]: [0mPATCH /api/candidates/application/699af64fd4709bc5545aa6fa/status [32m200[0m 3595.076 ms - 2169[0m
+2026-02-23 20:37:39 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 502.684 ms - 5500[0m
+2026-02-23 20:40:23 [HTTP]: [0mPOST /api/auth/login [32m200[0m 478.747 ms - 889[0m
+2026-02-23 20:40:23 [HTTP]: [0mGET /api/interviews/my [32m200[0m 160.997 ms - 35341[0m
+2026-02-23 20:40:23 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 182.026 ms - 132[0m
+2026-02-23 20:40:23 [HTTP]: [0mGET /api/interviews/my [36m304[0m 139.976 ms - -[0m
+2026-02-23 20:40:23 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 134.948 ms - -[0m
+2026-02-23 20:40:29 [ERROR]: AI Question Generation failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 30.474208347s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"30s"}]}}
+2026-02-23 20:40:29 [HTTP]: [0mPOST /api/interviews/start [31m500[0m 460.856 ms - 79[0m
+2026-02-23 20:41:24 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 95.569 ms - 3100[0m
+2026-02-23 20:41:24 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 90.930 ms - -[0m
+2026-02-23 20:42:03 [HTTP]: [0mPOST /api/auth/login [32m200[0m 467.602 ms - 889[0m
+2026-02-23 20:42:03 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 143.671 ms - -[0m
+2026-02-23 20:42:03 [HTTP]: [0mGET /api/interviews/my [36m304[0m 161.032 ms - -[0m
+2026-02-23 20:42:03 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 137.827 ms - -[0m
+2026-02-23 20:42:03 [HTTP]: [0mGET /api/interviews/my [36m304[0m 147.164 ms - -[0m
+2026-02-23 20:42:16 [HTTP]: [0mPOST /api/auth/login [32m200[0m 538.485 ms - 703[0m
+2026-02-23 20:42:17 [HTTP]: [0mGET /api/interviews/my [32m200[0m 57.097 ms - 32[0m
+2026-02-23 20:42:17 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 111.433 ms - 129[0m
+2026-02-23 20:42:17 [HTTP]: [0mGET /api/interviews/my [36m304[0m 61.151 ms - -[0m
+2026-02-23 20:42:17 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 116.851 ms - -[0m
+2026-02-23 20:42:19 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 79.920 ms - 930[0m
+2026-02-23 20:42:19 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 76.624 ms - -[0m
+2026-02-23 20:42:29 [HTTP]: [0mPOST /api/auth/login [32m200[0m 492.612 ms - 671[0m
+2026-02-23 20:42:29 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 138.728 ms - 156[0m
+2026-02-23 20:42:29 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 59.972 ms - -[0m
+2026-02-23 20:42:29 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 107.915 ms - 187[0m
+2026-02-23 20:42:29 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 102.295 ms - -[0m
+2026-02-23 20:42:29 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 67.031 ms - -[0m
+2026-02-23 20:42:29 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 98.604 ms - -[0m
+2026-02-23 20:42:30 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 69.414 ms - -[0m
+2026-02-23 20:42:30 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 55.484 ms - -[0m
+2026-02-23 20:42:33 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 114.395 ms - -[0m
+2026-02-23 20:42:33 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 178.546 ms - -[0m
+2026-02-23 20:42:41 [INFO]: 📧 Email sent [statusUpdate] → aggisanjay1234@gmail.com
+2026-02-23 20:42:41 [HTTP]: [0mPATCH /api/candidates/application/699c6d115dd3e6a2725b8727/status [32m200[0m 3846.569 ms - 2153[0m
+2026-02-23 20:42:41 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 132.684 ms - 5641[0m
+2026-02-23 20:42:54 [INFO]: 📧 Email sent [statusUpdate] → aggisanjay1234@gmail.com
+2026-02-23 20:42:54 [HTTP]: [0mPATCH /api/candidates/application/699c6d115dd3e6a2725b8727/status [32m200[0m 3582.175 ms - 2285[0m
+2026-02-23 20:42:54 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 123.818 ms - 5772[0m
+2026-02-24 11:00:44 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 11:00:44 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 11:00:44 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 11:00:45 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-00.h5sl1qs.mongodb.net
+2026-02-24 11:00:47 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 11:02:37 [HTTP]: [0mPOST /api/auth/login [32m200[0m 5565.178 ms - 703[0m
+2026-02-24 11:02:38 [HTTP]: [0mGET /api/interviews/my [32m200[0m 266.577 ms - 5119[0m
+2026-02-24 11:02:38 [HTTP]: [0mGET /api/interviews/my [36m304[0m 254.427 ms - -[0m
+2026-02-24 11:02:38 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 1214.584 ms - 129[0m
+2026-02-24 11:02:39 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 257.239 ms - -[0m
+2026-02-24 11:02:44 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 106.709 ms - 7501[0m
+2026-02-24 11:02:45 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 514.213 ms - -[0m
+2026-02-24 11:03:54 [INFO]: 📧 Email sent [applicationReceived] → aggisanjay1234@gmail.com
+2026-02-24 11:03:54 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 7467.384 ms - 718[0m
+2026-02-24 11:03:56 [ERROR]: AI Resume Analysis failed: {"error":{"code":503,"message":"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.","status":"UNAVAILABLE"}}
+2026-02-24 11:04:07 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1780.786 ms - 671[0m
+2026-02-24 11:04:16 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 2415.153 ms - 3494[0m
+2026-02-24 11:04:17 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 3290.844 ms - 187[0m
+2026-02-24 11:04:17 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 773.356 ms - -[0m
+2026-02-24 11:04:18 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 780.672 ms - -[0m
+2026-02-24 11:04:19 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 5494.857 ms - 156[0m
+2026-02-24 11:04:19 [HTTP]: [0mPOST /api/auth/login [32m200[0m 5939.944 ms - 671[0m
+2026-02-24 11:04:21 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 1372.968 ms - -[0m
+2026-02-24 11:04:25 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 616.930 ms - -[0m
+2026-02-24 11:04:25 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 64.812 ms - -[0m
+2026-02-24 11:04:39 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f5/pipeline [32m200[0m 3249.028 ms - 3879[0m
+2026-02-24 11:04:39 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f5/pipeline [36m304[0m 152.067 ms - -[0m
+2026-02-24 11:04:51 [HTTP]: [0mPOST /api/auth/login [32m200[0m 2075.906 ms - 686[0m
+2026-02-24 11:04:51 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 90.274 ms - 3241[0m
+2026-02-24 11:04:51 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 168.489 ms - 187[0m
+2026-02-24 11:04:51 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 359.045 ms - 155[0m
+2026-02-24 11:04:51 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 75.921 ms - -[0m
+2026-02-24 11:04:51 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 232.474 ms - -[0m
+2026-02-24 11:04:52 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 399.231 ms - -[0m
+2026-02-24 11:04:53 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 121.111 ms - -[0m
+2026-02-24 11:04:53 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 67.330 ms - -[0m
+2026-02-24 11:04:55 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f6/pipeline [32m200[0m 115.276 ms - 1799[0m
+2026-02-24 11:04:56 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f6/pipeline [36m304[0m 185.139 ms - -[0m
+2026-02-24 11:05:14 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1935.638 ms - 889[0m
+2026-02-24 11:05:14 [HTTP]: [0mGET /api/interviews/my [32m200[0m 221.300 ms - 35341[0m
+2026-02-24 11:05:14 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 252.984 ms - 132[0m
+2026-02-24 11:05:15 [HTTP]: [0mGET /api/interviews/my [36m304[0m 125.766 ms - -[0m
+2026-02-24 11:05:15 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 230.972 ms - -[0m
+2026-02-24 11:05:27 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1934.918 ms - 703[0m
+2026-02-24 11:05:27 [HTTP]: [0mGET /api/interviews/my [32m200[0m 91.731 ms - 5119[0m
+2026-02-24 11:05:27 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 146.924 ms - 129[0m
+2026-02-24 11:05:27 [HTTP]: [0mGET /api/interviews/my [36m304[0m 57.924 ms - -[0m
+2026-02-24 11:05:27 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 113.737 ms - -[0m
+2026-02-24 11:05:34 [ERROR]: AI Question Generation failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 25.99709626s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]}}
+2026-02-24 11:05:35 [HTTP]: [0mPOST /api/interviews/start [31m500[0m 947.426 ms - 79[0m
+2026-02-24 11:16:00 [ERROR]: AI Question Generation failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 59.938650456s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"59s"}]}}
+2026-02-24 11:16:00 [HTTP]: [0mPOST /api/interviews/start [31m500[0m 527.612 ms - 79[0m
+2026-02-24 11:19:23 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 144.075 ms - 7501[0m
+2026-02-24 11:19:24 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 92.162 ms - -[0m
+2026-02-24 11:19:30 [HTTP]: [0mGET /api/interviews/my [36m304[0m 79.437 ms - -[0m
+2026-02-24 11:19:30 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 142.768 ms - -[0m
+2026-02-24 11:19:30 [HTTP]: [0mGET /api/interviews/my [36m304[0m 60.087 ms - -[0m
+2026-02-24 11:19:30 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 130.412 ms - -[0m
+2026-02-24 11:19:35 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1994.143 ms - 671[0m
+2026-02-24 11:19:36 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 43.537 ms - 3494[0m
+2026-02-24 11:19:36 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 76.828 ms - 156[0m
+2026-02-24 11:19:36 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 117.296 ms - 187[0m
+2026-02-24 11:19:36 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 141.569 ms - -[0m
+2026-02-24 11:19:36 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 200.845 ms - -[0m
+2026-02-24 11:19:36 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 141.845 ms - -[0m
+2026-02-24 11:19:37 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 44.440 ms - -[0m
+2026-02-24 11:19:38 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 51.328 ms - -[0m
+2026-02-24 11:19:39 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f5/pipeline [36m304[0m 107.989 ms - -[0m
+2026-02-24 11:19:40 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f5/pipeline [36m304[0m 256.489 ms - -[0m
+2026-02-24 11:29:22 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 11:29:23 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 11:29:23 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 11:29:24 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net
+2026-02-24 11:29:25 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 11:29:37 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 11:29:37 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 11:29:37 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 11:29:38 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-00.h5sl1qs.mongodb.net
+2026-02-24 11:29:39 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 11:29:58 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 162.322 ms - -[0m
+2026-02-24 11:29:58 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 180.274 ms - -[0m
+2026-02-24 11:29:58 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 89.327 ms - -[0m
+2026-02-24 11:29:59 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 145.703 ms - -[0m
+2026-02-24 11:29:59 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 476.704 ms - -[0m
+2026-02-24 11:29:59 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 103.590 ms - -[0m
+2026-02-24 11:30:15 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1816.093 ms - 703[0m
+2026-02-24 11:30:24 [HTTP]: [0mGET /api/interviews/my [36m304[0m 145.659 ms - -[0m
+2026-02-24 11:30:24 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 280.745 ms - -[0m
+2026-02-24 11:30:24 [HTTP]: [0mGET /api/interviews/my [36m304[0m 82.486 ms - -[0m
+2026-02-24 11:30:24 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 94.972 ms - -[0m
+2026-02-24 11:30:28 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 79.935 ms - 2999[0m
+2026-02-24 11:30:28 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 83.502 ms - -[0m
+2026-02-24 11:30:34 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:30:37 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:30:43 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:30:43 [HTTP]: [0mPOST /api/interviews/start [32m201[0m 10365.126 ms - 155[0m
+2026-02-24 11:31:52 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:31:55 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:32:01 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:32:01 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 10003.612 ms - 140[0m
+2026-02-24 11:32:37 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:32:40 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:32:46 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:32:46 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 9902.780 ms - 136[0m
+2026-02-24 11:33:14 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:33:17 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:33:24 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:33:24 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 10072.289 ms - 120[0m
+2026-02-24 11:34:09 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:34:12 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:34:18 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:34:18 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 9817.718 ms - 142[0m
+2026-02-24 11:34:56 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:34:59 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:35:05 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:35:05 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 10081.166 ms - 125[0m
+2026-02-24 11:35:34 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:35:38 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:35:44 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:35:44 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 9857.410 ms - 130[0m
+2026-02-24 11:36:17 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:36:21 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:36:27 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 11:36:27 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 9849.903 ms - 151[0m
+2026-02-24 11:36:58 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/message [32m200[0m 187.063 ms - 68[0m
+2026-02-24 11:37:04 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:37:07 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:37:13 [ERROR]: evaluateInterview failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 47.171089383s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}]}}
+2026-02-24 11:37:13 [HTTP]: [0mPOST /api/interviews/699d3e8b68d6916bdf129482/complete [32m200[0m 9793.834 ms - 114[0m
+2026-02-24 11:37:16 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [32m200[0m 105.703 ms - 18636[0m
+2026-02-24 11:37:19 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 73.622 ms - -[0m
+2026-02-24 11:37:22 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 72.706 ms - -[0m
+2026-02-24 11:37:25 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 85.724 ms - -[0m
+2026-02-24 11:37:28 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 69.054 ms - -[0m
+2026-02-24 11:37:31 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 69.066 ms - -[0m
+2026-02-24 11:37:34 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 107.450 ms - -[0m
+2026-02-24 11:37:37 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 84.751 ms - -[0m
+2026-02-24 11:37:40 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 83.447 ms - -[0m
+2026-02-24 11:37:43 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 106.440 ms - -[0m
+2026-02-24 11:37:46 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 71.128 ms - -[0m
+2026-02-24 11:37:49 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 110.247 ms - -[0m
+2026-02-24 11:37:52 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 82.735 ms - -[0m
+2026-02-24 11:37:55 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 78.266 ms - -[0m
+2026-02-24 11:37:58 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 76.468 ms - -[0m
+2026-02-24 11:38:01 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 69.571 ms - -[0m
+2026-02-24 11:38:04 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 93.894 ms - -[0m
+2026-02-24 11:38:07 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 81.291 ms - -[0m
+2026-02-24 11:38:10 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 75.512 ms - -[0m
+2026-02-24 11:38:13 [HTTP]: [0mGET /api/interviews/699d3e8b68d6916bdf129482/result [36m304[0m 73.080 ms - -[0m
+2026-02-24 11:40:27 [HTTP]: [0mGET /api/auth/me [36m304[0m 44.719 ms - -[0m
+2026-02-24 11:40:27 [HTTP]: [0mGET /api/auth/me [36m304[0m 51.339 ms - -[0m
+2026-02-24 11:40:30 [HTTP]: [0mGET /api/interviews/my [32m200[0m 77.871 ms - 23727[0m
+2026-02-24 11:40:30 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 155.097 ms - 129[0m
+2026-02-24 11:40:30 [HTTP]: [0mGET /api/interviews/my [36m304[0m 72.700 ms - -[0m
+2026-02-24 11:40:30 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 114.087 ms - -[0m
+2026-02-24 11:40:51 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 92.521 ms - -[0m
+2026-02-24 11:40:51 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 78.216 ms - -[0m
+2026-02-24 11:40:52 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 157.058 ms - -[0m
+2026-02-24 11:40:52 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 70.179 ms - -[0m
+2026-02-24 11:41:46 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 68.462 ms - -[0m
+2026-02-24 11:41:47 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 112.759 ms - -[0m
+2026-02-24 11:46:40 [HTTP]: [0mGET /api/auth/me [36m304[0m 60.741 ms - -[0m
+2026-02-24 11:46:40 [HTTP]: [0mGET /api/auth/me [36m304[0m 89.488 ms - -[0m
+2026-02-24 11:46:40 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 79.161 ms - 34[0m
+2026-02-24 11:46:41 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 79.944 ms - -[0m
+2026-02-24 11:46:42 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 96.239 ms - -[0m
+2026-02-24 11:46:43 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 79.843 ms - -[0m
+2026-02-24 11:47:00 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 11:47:03 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 11:47:09 [ERROR]: analyzeResume failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 51.093764652s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]}}
+2026-02-24 11:47:09 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 14102.591 ms - 717[0m
+2026-02-24 11:47:13 [INFO]: 📧 Email sent [applicationReceived] → aggisanjay1234@gmail.com
+2026-02-24 11:47:18 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1265.189 ms - 671[0m
+2026-02-24 11:47:18 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 50.431 ms - 3494[0m
+2026-02-24 11:47:18 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 94.702 ms - 187[0m
+2026-02-24 11:47:18 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 45.824 ms - -[0m
+2026-02-24 11:47:18 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 302.001 ms - 156[0m
+2026-02-24 11:47:18 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 114.381 ms - -[0m
+2026-02-24 11:47:18 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 99.613 ms - -[0m
+2026-02-24 11:47:23 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 48.405 ms - -[0m
+2026-02-24 11:47:23 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 46.363 ms - -[0m
+2026-02-24 11:47:26 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 97.805 ms - 5500[0m
+2026-02-24 11:47:26 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 104.152 ms - -[0m
+2026-02-24 11:47:39 [HTTP]: [0mGET /api/auth/me [32m200[0m 40.755 ms - 459[0m
+2026-02-24 11:47:39 [HTTP]: [0mGET /api/auth/me [36m304[0m 40.113 ms - -[0m
+2026-02-24 11:47:40 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 92.300 ms - -[0m
+2026-02-24 11:47:40 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 152.708 ms - -[0m
+2026-02-24 11:58:46 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 11:58:46 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 11:58:46 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 11:58:47 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-02.h5sl1qs.mongodb.net
+2026-02-24 11:58:49 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 12:02:46 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 12:02:46 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 12:02:46 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 12:02:47 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-00.h5sl1qs.mongodb.net
+2026-02-24 12:02:48 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 12:03:25 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 233.479 ms - -[0m
+2026-02-24 12:03:26 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 768.053 ms - -[0m
+2026-02-24 12:03:26 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 712.584 ms - -[0m
+2026-02-24 12:03:27 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 651.124 ms - -[0m
+2026-02-24 12:03:27 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 2258.474 ms - -[0m
+2026-02-24 12:03:28 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 736.183 ms - -[0m
+2026-02-24 12:03:46 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1294.038 ms - 703[0m
+2026-02-24 12:03:48 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 1912.320 ms - 129[0m
+2026-02-24 12:03:48 [HTTP]: [0mGET /api/interviews/my [36m304[0m 2369.897 ms - -[0m
+2026-02-24 12:03:49 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 749.811 ms - -[0m
+2026-02-24 12:03:49 [HTTP]: [0mGET /api/interviews/my [36m304[0m 849.189 ms - -[0m
+2026-02-24 12:03:54 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 599.530 ms - 7501[0m
+2026-02-24 12:03:54 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 65.642 ms - -[0m
+2026-02-24 12:04:27 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:04:32 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:04:38 [ERROR]: analyzeResume failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 22.272389699s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"22s"}]}}
+2026-02-24 12:04:38 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 29706.540 ms - 717[0m
+2026-02-24 12:04:45 [INFO]: 📧 Email sent [applicationReceived] → aggisanjay1234@gmail.com
+2026-02-24 12:04:50 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1441.496 ms - 686[0m
+2026-02-24 12:04:51 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 269.014 ms - 3241[0m
+2026-02-24 12:04:51 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 425.821 ms - 187[0m
+2026-02-24 12:04:51 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 172.604 ms - -[0m
+2026-02-24 12:04:51 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 444.289 ms - -[0m
+2026-02-24 12:04:52 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 1203.876 ms - 155[0m
+2026-02-24 12:04:52 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 439.411 ms - -[0m
+2026-02-24 12:04:54 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 45.176 ms - -[0m
+2026-02-24 12:04:54 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 179.978 ms - -[0m
+2026-02-24 12:04:57 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f6/pipeline [32m200[0m 84.831 ms - 1799[0m
+2026-02-24 12:04:57 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f6/pipeline [36m304[0m 97.644 ms - -[0m
+2026-02-24 12:05:57 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1302.235 ms - 671[0m
+2026-02-24 12:05:58 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 1015.890 ms - 3494[0m
+2026-02-24 12:05:58 [HTTP]: [0mGET /api/analytics/dashboard [32m200[0m 1563.621 ms - 156[0m
+2026-02-24 12:05:59 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 1463.093 ms - -[0m
+2026-02-24 12:06:01 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 2300.337 ms - -[0m
+2026-02-24 12:06:02 [HTTP]: [0mGET /api/analytics/funnel [32m200[0m 5006.841 ms - 187[0m
+2026-02-24 12:06:02 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 76.555 ms - -[0m
+2026-02-24 12:06:03 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 136.513 ms - -[0m
+2026-02-24 12:06:03 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 332.563 ms - -[0m
+2026-02-24 12:06:06 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f5/pipeline [32m200[0m 410.226 ms - 3014[0m
+2026-02-24 12:06:06 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f5/pipeline [36m304[0m 445.268 ms - -[0m
+2026-02-24 12:06:14 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 459.655 ms - -[0m
+2026-02-24 12:06:14 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 469.120 ms - -[0m
+2026-02-24 12:06:14 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 620.696 ms - -[0m
+2026-02-24 12:06:15 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 339.429 ms - -[0m
+2026-02-24 12:06:15 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 430.013 ms - -[0m
+2026-02-24 12:06:15 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 450.234 ms - -[0m
+2026-02-24 12:06:29 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1837.943 ms - 703[0m
+2026-02-24 12:06:29 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 452.318 ms - 129[0m
+2026-02-24 12:06:29 [HTTP]: [0mGET /api/interviews/my [36m304[0m 574.401 ms - -[0m
+2026-02-24 12:06:30 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 451.731 ms - -[0m
+2026-02-24 12:06:30 [HTTP]: [0mGET /api/interviews/my [36m304[0m 822.367 ms - -[0m
+2026-02-24 12:06:33 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 410.383 ms - 1827[0m
+2026-02-24 12:06:33 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 93.139 ms - -[0m
+2026-02-24 12:06:53 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1309.454 ms - 671[0m
+2026-02-24 12:06:53 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 94.003 ms - -[0m
+2026-02-24 12:06:54 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 168.466 ms - -[0m
+2026-02-24 12:06:54 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 196.009 ms - -[0m
+2026-02-24 12:06:54 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 96.219 ms - -[0m
+2026-02-24 12:06:54 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 489.721 ms - -[0m
+2026-02-24 12:06:55 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 1079.751 ms - -[0m
+2026-02-24 12:06:55 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 68.372 ms - -[0m
+2026-02-24 12:06:56 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 158.598 ms - -[0m
+2026-02-24 12:06:58 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 186.398 ms - -[0m
+2026-02-24 12:06:58 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 267.131 ms - -[0m
+2026-02-24 12:07:09 [HTTP]: [0mGET /api/candidates/all?search=&page=1&limit=12 [32m200[0m 408.662 ms - 4068[0m
+2026-02-24 12:07:10 [HTTP]: [0mGET /api/candidates/all?search=&page=1&limit=12 [36m304[0m 204.631 ms - -[0m
+2026-02-24 12:07:22 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1334.327 ms - 703[0m
+2026-02-24 12:07:22 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 482.470 ms - -[0m
+2026-02-24 12:07:23 [HTTP]: [0mGET /api/interviews/my [36m304[0m 732.668 ms - -[0m
+2026-02-24 12:07:23 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 534.437 ms - -[0m
+2026-02-24 12:07:23 [HTTP]: [0mGET /api/interviews/my [36m304[0m 428.743 ms - -[0m
+2026-02-24 12:07:36 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:07:39 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:07:46 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:07:46 [HTTP]: [0mPOST /api/interviews/start [32m201[0m 10458.676 ms - 155[0m
+2026-02-24 12:10:07 [WARN]: MongoDB disconnected. Reconnecting...
+2026-02-24 12:10:22 [INFO]: MongoDB reconnected.
+2026-02-24 12:10:25 [WARN]: MongoDB disconnected. Reconnecting...
+2026-02-24 12:10:36 [INFO]: MongoDB reconnected.
+2026-02-24 12:14:46 [WARN]: MongoDB disconnected. Reconnecting...
+2026-02-24 12:15:16 [ERROR]: 500 - getaddrinfo ENOTFOUND ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net - /api/interviews/699d473a8dc49d3ea45b8959/message - POST
+2026-02-24 12:15:16 [ERROR]: MongoServerSelectionError: getaddrinfo ENOTFOUND ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net
+    at Topology.selectServer (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\operations\execute_operation.js:196:22)
+    at async executeOperation (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\aggis\Desktop\AI Hiring Intelligence Platform\server\node_modules\mongoose\lib\query.js:4627:63)
+2026-02-24 12:15:16 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [31m500[0m 42416.907 ms - 1794[0m
+2026-02-24 12:15:55 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 12:15:55 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 12:15:55 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 12:16:40 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-02.h5sl1qs.mongodb.net
+2026-02-24 12:16:40 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 12:17:07 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:17:10 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:17:16 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:17:16 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 10845.977 ms - 151[0m
+2026-02-24 12:17:39 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:17:42 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:17:49 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:17:49 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 10553.511 ms - 140[0m
+2026-02-24 12:18:18 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:18:21 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:18:28 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:18:29 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 10853.681 ms - 136[0m
+2026-02-24 12:19:16 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:19:20 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:19:26 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:19:27 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 11435.176 ms - 120[0m
+2026-02-24 12:30:32 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:30:38 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:30:59 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:31:08 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 36329.399 ms - 142[0m
+2026-02-24 12:31:37 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:31:44 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:31:50 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:31:50 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 29473.443 ms - 125[0m
+2026-02-24 12:32:06 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:32:09 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:32:16 [WARN]: Rate limit after retries — using fallback question
+2026-02-24 12:32:16 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 10674.657 ms - 130[0m
+2026-02-24 12:32:54 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/message [32m200[0m 90.539 ms - 68[0m
+2026-02-24 12:32:58 [WARN]: ⚠️  Gemini rate limit. Retrying in 3s (attempt 1/3)
+2026-02-24 12:33:02 [WARN]: ⚠️  Gemini rate limit. Retrying in 6s (attempt 2/3)
+2026-02-24 12:33:08 [ERROR]: evaluateInterview failed: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 52.212769477s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"52s"}]}}
+2026-02-24 12:33:08 [HTTP]: [0mPOST /api/interviews/699d473a8dc49d3ea45b8959/complete [32m200[0m 10909.099 ms - 1276[0m
+2026-02-24 12:33:11 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [32m200[0m 80.114 ms - 18788[0m
+2026-02-24 12:33:14 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 67.131 ms - -[0m
+2026-02-24 12:33:17 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 64.147 ms - -[0m
+2026-02-24 12:33:20 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 59.568 ms - -[0m
+2026-02-24 12:33:23 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 64.920 ms - -[0m
+2026-02-24 12:33:26 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 66.892 ms - -[0m
+2026-02-24 12:33:29 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 60.917 ms - -[0m
+2026-02-24 12:33:32 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 63.426 ms - -[0m
+2026-02-24 12:33:35 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 64.959 ms - -[0m
+2026-02-24 12:33:38 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 69.304 ms - -[0m
+2026-02-24 12:33:41 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 70.254 ms - -[0m
+2026-02-24 12:33:44 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 59.427 ms - -[0m
+2026-02-24 12:33:47 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 62.230 ms - -[0m
+2026-02-24 12:33:50 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 87.637 ms - -[0m
+2026-02-24 12:33:53 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 72.526 ms - -[0m
+2026-02-24 12:33:56 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 85.315 ms - -[0m
+2026-02-24 12:33:59 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 158.065 ms - -[0m
+2026-02-24 12:34:02 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 85.097 ms - -[0m
+2026-02-24 12:34:05 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 401.703 ms - -[0m
+2026-02-24 12:34:09 [HTTP]: [0mGET /api/interviews/699d473a8dc49d3ea45b8959/result [36m304[0m 1331.819 ms - -[0m
+2026-02-24 12:35:02 [HTTP]: [0mGET /api/auth/me [32m200[0m 56.255 ms - 491[0m
+2026-02-24 12:35:02 [HTTP]: [0mGET /api/auth/me [36m304[0m 46.675 ms - -[0m
+2026-02-24 12:35:04 [HTTP]: [0mGET /api/interviews/my [32m200[0m 131.485 ms - 42487[0m
+2026-02-24 12:35:04 [HTTP]: [0mGET /api/interviews/my [36m304[0m 136.699 ms - -[0m
+2026-02-24 12:35:04 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 425.791 ms - 129[0m
+2026-02-24 12:35:04 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 112.435 ms - -[0m
+2026-02-24 12:37:13 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 12:37:13 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 12:37:13 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 12:37:14 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-01.h5sl1qs.mongodb.net
+2026-02-24 12:37:16 [INFO]: ✅ SMTP connected — emails will be sent
+2026-02-24 12:37:58 [HTTP]: [0mPOST /api/interviews/start [32m201[0m 25031.256 ms - 265[0m
+2026-02-24 12:39:09 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [32m200[0m 18525.069 ms - 248[0m
+2026-02-24 12:40:10 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [32m200[0m 23453.026 ms - 244[0m
+2026-02-24 12:42:03 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [0m-[0m - ms - -[0m
+2026-02-24 12:42:09 [ERROR]: generateInterviewQuestion failed: {"error":{"code":503,"message":"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.","status":"UNAVAILABLE"}}
+2026-02-24 12:43:39 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [32m200[0m 19178.301 ms - 207[0m
+2026-02-24 12:44:22 [ERROR]: generateInterviewQuestion failed: {"error":{"code":503,"message":"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.","status":"UNAVAILABLE"}}
+2026-02-24 12:44:22 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [31m502[0m 1940.184 ms - 223[0m
+2026-02-24 12:45:59 [ERROR]: generateInterviewQuestion failed: {"error":{"code":503,"message":"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.","status":"UNAVAILABLE"}}
+2026-02-24 12:45:59 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [31m502[0m 58758.260 ms - 223[0m
+2026-02-24 12:47:52 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [0m-[0m - ms - -[0m
+2026-02-24 12:48:07 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/message [32m200[0m 148.058 ms - 68[0m
+2026-02-24 12:48:47 [HTTP]: [0mPOST /api/interviews/699d4e4deec00e794ccfb963/complete [32m200[0m 29494.020 ms - 1498[0m
+2026-02-24 12:49:02 [HTTP]: [0mGET /api/interviews/my [32m200[0m 117.832 ms - 66724[0m
+2026-02-24 12:49:02 [HTTP]: [0mGET /api/interviews/my [36m304[0m 70.340 ms - -[0m
+2026-02-24 12:49:02 [HTTP]: [0mGET /api/analytics/candidate/stats [32m200[0m 376.527 ms - 129[0m
+2026-02-24 12:49:02 [HTTP]: [0mGET /api/analytics/candidate/stats [36m304[0m 108.398 ms - -[0m
+2026-02-24 12:49:10 [HTTP]: [0mGET /api/jobs?search=&limit=20 [32m200[0m 81.014 ms - 7501[0m
+2026-02-24 12:49:10 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 107.729 ms - -[0m
+2026-02-24 12:50:12 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 73.836 ms - -[0m
+2026-02-24 12:50:12 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 66.636 ms - -[0m
+2026-02-24 12:51:13 [HTTP]: [0mGET /api/auth/me [36m304[0m 145.060 ms - -[0m
+2026-02-24 12:51:13 [HTTP]: [0mGET /api/auth/me [36m304[0m 132.749 ms - -[0m
+2026-02-24 12:51:13 [HTTP]: [0mGET /api/candidates/my-applications [32m200[0m 57.314 ms - 34[0m
+2026-02-24 12:51:13 [HTTP]: [0mGET /api/candidates/my-applications [36m304[0m 69.546 ms - -[0m
+2026-02-24 12:51:17 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 82.566 ms - -[0m
+2026-02-24 12:51:17 [HTTP]: [0mGET /api/jobs?search=&limit=20 [36m304[0m 74.496 ms - -[0m
+2026-02-24 12:52:28 [HTTP]: [0mPOST /api/candidates/apply [32m201[0m 55525.499 ms - 3444[0m
+2026-02-24 12:52:32 [INFO]: 📧 Email sent [applicationReceived] → aggisanjay1234@gmail.com
+2026-02-24 12:52:36 [HTTP]: [0mPOST /api/auth/login [32m200[0m 1410.192 ms - 671[0m
+2026-02-24 12:52:36 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [32m200[0m 77.595 ms - 3494[0m
+2026-02-24 12:52:36 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 126.439 ms - -[0m
+2026-02-24 12:52:37 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 68.915 ms - -[0m
+2026-02-24 12:52:37 [HTTP]: [0mGET /api/analytics/funnel [36m304[0m 91.531 ms - -[0m
+2026-02-24 12:52:37 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 463.247 ms - -[0m
+2026-02-24 12:52:37 [HTTP]: [0mGET /api/analytics/dashboard [36m304[0m 83.877 ms - -[0m
+2026-02-24 12:52:39 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 47.687 ms - -[0m
+2026-02-24 12:52:40 [HTTP]: [0mGET /api/jobs/recruiter/my-jobs [36m304[0m 63.828 ms - -[0m
+2026-02-24 12:52:43 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 106.210 ms - 8227[0m
+2026-02-24 12:52:43 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [36m304[0m 145.053 ms - -[0m
+2026-02-24 12:53:01 [HTTP]: [0mPATCH /api/candidates/application/699d517eeec00e794ccfba66/status [32m200[0m 106.245 ms - 4880[0m
+2026-02-24 12:53:02 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 134.116 ms - 8368[0m
+2026-02-24 12:53:05 [INFO]: 📧 Email sent [statusUpdate] → aggisanjay1234@gmail.com
+2026-02-24 12:53:10 [HTTP]: [0mPATCH /api/candidates/application/699d517eeec00e794ccfba66/status [32m200[0m 147.399 ms - 5012[0m
+2026-02-24 12:53:10 [HTTP]: [0mGET /api/jobs/699af64fd4709bc5545aa6f1/pipeline [32m200[0m 133.692 ms - 8499[0m
+2026-02-24 12:53:13 [INFO]: 📧 Email sent [statusUpdate] → aggisanjay1234@gmail.com
+2026-02-24 13:00:28 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 13:00:28 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 13:00:28 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 13:00:29 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-02.h5sl1qs.mongodb.net
+2026-02-24 13:00:55 [INFO]: 📁 Resume storage: Cloudinary
+2026-02-24 13:00:55 [INFO]: 🚀 HireIQ Server running on port 5000 [development]
+2026-02-24 13:00:55 [INFO]: 📡 API: http://localhost:5000/api
+2026-02-24 13:00:56 [INFO]: ✅ MongoDB Connected: ac-jjwhwyn-shard-00-00.h5sl1qs.mongodb.net
+2026-02-24 13:00:57 [INFO]: ✅ SMTP connected — emails will be sent
