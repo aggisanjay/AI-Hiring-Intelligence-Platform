@@ -35,6 +35,56 @@
 
 ---
 
+## 🖼️ Screenshots
+
+# Recuriter portal
+
+<table>
+  <tr>
+    <td align="center"><b>Dashboard</b></td>
+    <td align="center"><b>Jobs</b></td>
+  </tr>
+  <tr>
+    <td><img width="420" alt="image" src="https://github.com/user-attachments/assets/39ecb551-e52e-4bfa-94b6-a1c5068c2aec" /></td>
+    <td><img width="420"  alt="image" src="https://github.com/user-attachments/assets/6e113c0d-2b7a-475a-9050-4b58ef5572d3" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Candidates</b></td>
+    <td align="center"><b>Analytics</b></td>
+  </tr>
+  <tr>
+    <td><img width="420"  alt="image" src="https://github.com/user-attachments/assets/73800547-b46b-428b-9e3a-fb3273c57287" />
+</td>
+    <td><img width="420"  alt="image" src="https://github.com/user-attachments/assets/1b4f2743-b850-4991-8f47-c2697aeb9d89" /></td>
+  </tr>
+</table>
+
+# Candidate portal
+
+<table>
+  <tr>
+    <td align="center"><b>Dashboard</b></td>
+    <td align="center"><b>Browser Jobs</b></td>
+  </tr>
+  <tr>
+    <td><img width="420" alt="image" src="https://github.com/user-attachments/assets/63e917b0-29be-4f63-966e-bde4ea82a862" /></td>
+    <td><img width="420"  alt="image" src="https://github.com/user-attachments/assets/d5ee6154-6e4f-4aa5-9d94-17e54a7edc02" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>My Applications</b></td>
+    <td align="center"><b>AI Interview</b></td>
+  </tr>
+  <tr>
+    <td><img width="420"  alt="image" src="https://github.com/user-attachments/assets/9fc36009-1bc6-458e-a53b-036d589855ae" /></td>
+    <td><img width="420"  alt="image" src="https://github.com/user-attachments/assets/2ff24548-e9c0-48a6-8815-6949cf8e092b" /></td>
+  </tr>
+</table>
+
+
+
+---
+
+
 
 
 ## 🏗️ Tech Stack
